@@ -20,4 +20,4 @@ cols = st.columns(3)
 
 for index, filename in enumerate(image_files):
     with cols[index % 3]:
-        st.image(image_folder + filename, use_column_width=True)
+        st.image(image_folder + filename, use_container_width=True)

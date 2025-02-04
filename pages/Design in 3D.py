@@ -23,4 +23,4 @@ cols = st.columns(3)
 
 for index, (filename, caption) in enumerate(image_files):
     with cols[index % 3]: 
-        st.image(image_folder + filename, caption=caption, use_column_width=True)
+        st.image(image_folder + filename, caption=caption, use_container_width=True)
